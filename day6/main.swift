@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+var s1: Student
+s1=Student()
 
+var s2:Student?
+s2=Student(sid: 2, snm: "guhhdtdhtjhytjtji", email: "hh.com", pwd: "hgchj")
+
+var s3:Student?
+s3=Student(sid: -2, snm: "gufgdhtfhi", email: "hh.com", pwd: "hgchj")
