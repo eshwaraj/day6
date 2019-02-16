@@ -26,7 +26,7 @@ class Student
     var pwd: String!
     init()
     {
-        self.sid=0
+        self.sid=1
         self.snm=String()
         self.email=String()
         self.pwd=String()
@@ -37,7 +37,7 @@ class Student
         
         if sid < 0
         {
-            print("student name must be >=10 length")
+            print("studen must be >=10 length")
             return nil
         }
         if email.count < 15
